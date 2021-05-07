@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+</head>
+<body>
+	<form id="miFormulario" name="">
+		<label>Número 1: </label>
+		<input type="number" name="" id="valor1" autofocus placeholder="Escribe un número">
+		<button onClick="limpiar();">Limpiar campos</button>
+
+		<br>
+		<br>
+		<label>Número 2: </label>
+		<input type="number" name="" id="valor2" placeholder="Escribe otro número">
+
+		<br>
+		<br>
+		<button type="button" onClick="sumar();">Sumar</button>
+		<button type="button" onClick="restar();">Restar</button>
+		<button type="button" onClick="multiplicar();">Multiplicar</button>
+		<button type="button" onClick="dividir();">Dividir</button>
+
+		<p>El resultado es: <span id="el-resultado"></span></p>
+	</form>
+
+	<script type="text/javascript" src="funciones.js"></script>
+</body>
+</html>
